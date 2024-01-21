@@ -1,4 +1,4 @@
-package BirinciCalisma;
+package Calisma_1_GetUndNavigete;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
