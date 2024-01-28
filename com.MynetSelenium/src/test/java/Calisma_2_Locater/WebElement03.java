@@ -21,6 +21,7 @@ public class WebElement03 {
         driver.get("https://www.bestbuy.com/");
 
         List<WebElement>buttonListesi=driver.findElements(By.tagName("button"));
+
         System.out.println(buttonListesi.size());
         for (WebElement each:buttonListesi){
             System.out.println(each.getText());
