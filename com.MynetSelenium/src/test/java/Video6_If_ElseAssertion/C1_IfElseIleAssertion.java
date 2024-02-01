@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C1 {
+public class C1_IfElseIleAssertion {
 
     WebDriver driver;
     @Before
@@ -31,6 +31,7 @@ public class C1 {
     public void test01() {
         // 1- https:www.amazon.com sayfasina gidin
         driver.get("https:www.amazon.com");
+        driver.navigate().refresh();
         //2- arama cubuguna “Nutella” yazdirin
         WebElement aramaKutusu=driver.findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("Nutella");
